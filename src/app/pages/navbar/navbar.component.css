@@ -1,0 +1,58 @@
+/* General Styles for Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #faf6f0;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-left .logo {
+    height: 40px;
+  }
+  
+  .navbar-center {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .nav-item.active {
+    color: #e83a59; 
+    position: relative;
+  }
+  
+  .nav-item.active::after {
+    content: '';
+    display: block;
+    margin: 5px auto 0;
+    width: 60%;
+    height: 2px;
+    background-color: #e83a59;
+  }
+  
+
+  .navbar-right {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon-container {
+    padding: 5px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: #333;
+  }
+  
