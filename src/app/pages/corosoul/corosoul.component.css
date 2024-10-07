@@ -1,0 +1,138 @@
+.div_body {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 430px;
+  max-height: 280px;
+  background: var(--unnamed-color-f9f7f2) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-222222);
+  background: #f9f7f2 0% 0% no-repeat padding-box;
+  border: 1px solid #222222;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: -4rem;
+  left: 0.2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.swiper-but-next,
+.swiper-but-prev {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #463d3d;
+  border: 1px solid #746767;
+  opacity: 1;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #141414;
+  border: 1px solid #746767;
+}
+
+.swiper-slide {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+}
+.img_div img{
+ border-radius: 6px;
+}
+.text_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  position: relative;
+}
+.h1_golf h1 {
+  font: sans-serif normal 10px/40px IvyMode;
+  color: var(--unnamed-color-222222);
+  text-align: left;
+  font: normal normal normal 24px/35px IvyMode;
+  letter-spacing: 0.79px;
+  color: #222222;
+  opacity: 1;
+  margin: .4rem;
+}
+.txt p{
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/18px BrownLight;
+text-align: left;
+/* font: normal normal normal 16px/18px BrownLight; */
+letter-spacing: 0.35px;
+opacity: 1;
+margin-top: -1rem;
+}
+.rating {
+  display: flex;
+  margin-top: -.3rem;
+}
+.dt {
+  display: flex;
+}
+.dt svg{
+color:rgba(240, 77, 77, 0.658);
+height:1.5rem;
+opacity: 1;
+}
+.city {
+  display: flex;
+}
+.city svg{
+    color:rgba(240, 77, 77, 0.658);
+height:1.5rem;
+}
+.golf {
+  display: flex;
+}
+.golf svg{
+    color:rgba(240, 77, 77, 0.658);
+height:1.5rem;
+}
+.emoji {
+  display: flex;
+  gap: 0.6rem;
+}
+.emoji svg{
+    color:rgba(31, 179, 80, 0.658);
+    height:1.5rem;
+}
+.emoji_l {
+    display: flex;
+    color: var(--unnamed-color-222222);
+    text-align: left;
+    font: normal normal normal  Brown;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+.txt_tlg{
+    display: flex;
+    flex-direction: column;
+   margin-top: -.7rem;
+}
